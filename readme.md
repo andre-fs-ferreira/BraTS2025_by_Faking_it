@@ -1,13 +1,25 @@
-# Code used to train the winning solutions of BraTS 2025 inpainting and missing modality tasks.
+# BraTS 2025 Winning Solutions: Inpainting & Missing Modality
 
-# Each folder contains the solution for each task:
-* `Synthetic-CT-generation-from-MRI-using-3D-transformer-based-denoising-diffusion-model`: inapinting
-* `Synthetic-CT-generation-from-MRI-using-3D-transformer-based-denoising-diffusion-model_BraSys`: missing modality
+This repository contains the code used to train the winning solutions for the BraTS 2025 inpainting and missing modality tasks.
 
-💡 inside each folder you will find the shell script file for training and testing (runing inference).
+## 📁 Repository Structure
 
-📁 MonaiDataLoader.py contains the code for data loading. Change it as you like.
+The codebase is divided by task. Inside each folder, you will find the dedicated shell scripts required for both training and testing (running inference).
 
-❓ Open a new issue if you find problems!
+* **`Synthetic-CT-generation-from-MRI-using-3D-transformer-based-denoising-diffusion-model/`**
+    * **Task:** Inpainting
+* **`Synthetic-CT-generation-from-MRI-using-3D-transformer-based-denoising-diffusion-model_BraSys/`**
+    * **Task:** Missing Modality
 
-The paper wil be available soon [here](https://link.springer.com/book/9783032163646): Achieving Over 10× Faster Sample Generation with Conditional Denoising Diffusion
+## ⚙️ Data Loading
+
+All data loading logic is handled within `MonaiDataLoader.py`. Feel free to modify this file to adjust the data pipeline to your specific needs.
+
+## 📄 Paper 
+
+Our paper detailing the methodology will be available soon: 
+> [**Achieving Over 10× Faster Sample Generation with Conditional Denoising Diffusion**](https://link.springer.com/book/9783032163646)
+
+## ❓ Support
+
+If you encounter any problems, bugs, or have questions about the code, please open a new issue in this repository.
