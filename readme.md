@@ -9,3 +9,5 @@
 📁 MonaiDataLoader.py contains the code for data loading. Change it as you like.
 
 ❓ Open a new issue if you find problems!
+
+The paper wil be available soon [here](https://link.springer.com/book/9783032163646): Achieving Over 10× Faster Sample Generation with Conditional Denoising Diffusion
